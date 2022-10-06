@@ -1,8 +1,11 @@
+import React from 'react'
+import Header from './components/Header'
+
 function App() {
     return (
-        <h1 className='text-3xl text-cyan-800 font-bold  underline'>
-            Hello world!
-        </h1>
+        <React.Fragment>
+            <Header />
+        </React.Fragment>
     )
 }
 
